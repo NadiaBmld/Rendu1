@@ -1,0 +1,134 @@
+html{
+	scroll-behavior: smooth;
+	height: 100%;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0 0;
+	height: 100%;
+}
+
+.barre-de-navigation{
+	width: 90%;
+	overflow: auto;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	background-color: #FFF;
+}
+
+.logo-en-tête img{
+	padding: 10px 0;
+	float:left; /*mettre le logo à gauche de la page*/
+	width: 15%;
+	height:15%;
+}
+
+.navbar-nav {
+	float:right; /*mettre les catégories à droite de la page*/
+}
+
+.navbar-nav li{
+	display: inline-block;
+	color: black;
+	padding: 10px;
+}
+
+.navbar-nav a{
+	text-decoration: none;
+	color: black;
+}
+
+.barre-de-navigation a:hover{ /*animation lors du survolement des catégories*/
+	color:lightblue;
+	transition: all 0.3s ease-in-out;
+}
+
+.titre-centre1 {
+    color: #FFF;
+    font-size: 250%;
+    text-align: center;
+		text-transform: uppercase;
+ }
+
+ .titre-centre2 {
+     color: #1225aa;
+     font-size: 250%;
+     text-align: center;
+ 		 text-transform: uppercase;
+  }
+
+ .texte-centreblack {
+     color:black;
+     font-size:130%;
+     text-align: center;
+		 font-weight: lighter;
+		 padding : 10px 10px;
+ }
+
+ .texte-centrewhite {
+		 color:white;
+		 font-size:130%;
+		 text-align: center;
+		font-weight: lighter;
+		padding : 10px 10px;
+ }
+
+ .texte-contact{
+	 font-size:40%;
+	 text-align: left;
+	 font-weight: lighter;
+	 padding : 20px 20px;
+	 text-transform: lowercase;
+ }
+
+#bloc1{
+	background-image: url("Images/tutrice.jpg");
+	padding: 70px 70px 70px 70px;
+	position: relative;
+	min-height:100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+}
+
+#bloc2{
+	background-color: #1225aa;
+	background-position: center;
+	text-align: center;
+}
+
+#bloc3{
+	background-image: url("Images/tutorat.jpg");
+	background-repeat: no-repeat;
+}
+
+.bloc4{
+	background-color: white;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+
+#bloc5{
+	background-color: #1225aa;
+	background-position: center;
+	text-align:left;
+}
+
+#bloc5 	a{
+	color:white;
+	text-decoration:none;
+}
+
+#bloc5 a:hover{ /*adresse-mail surlignée*/
+	text-decoration: underline;
+	color:lightblue;
+}
+
+.wrapper {
+  display: grid;
+	grid-template-columns: 40% 60%;
+	grid-gap: 0px;
+}
